@@ -16,6 +16,8 @@ Test desktop
 | Line  | Line 1  |      |      |
 |       |         |      |      |
 |       |         |      |      |
+
+
 ```mermaid
         gantt
         dateFormat  YYYY-MM-DD
@@ -27,10 +29,4 @@ Test desktop
         Map current state of the various teams (existing tools, processes, documentation)               :  des3, after des1, 5d
         Define new organizational structure              :      des4, after des2 des3, 10d
         Build desired state plan for track 2             :      des5, after des3, 10d      
-        
-        section Track2
-        Completed task            :done,    des1, 2014-01-06,2014-01-08
-        Active task               :crit,active,  des2, 2014-01-09, 3d
-        Future task               :active,  des3, after des2, 5d
-        Future task2              :         des4, after des2, 50d
 ```
